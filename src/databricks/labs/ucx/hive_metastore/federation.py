@@ -21,7 +21,7 @@ from databricks.labs.ucx.hive_metastore import ExternalLocations
 logger = logging.getLogger(__name__)
 
 
-## TODO: point to sdk once create foreign securable is implemented
+# TODO: point to sdk once create foreign securable is implemented
 class Privilege(Enum):
 
     ACCESS = 'ACCESS'
